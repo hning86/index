@@ -1,0 +1,15 @@
+# Environment variables (contains sensitive GITHUB_TOKEN)
+.env
+
+# Python virtual environments and caches
+.venv/
+venv/
+ENV/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# OS / IDE specific files
+.DS_Store
+.idea/
+.vscode/

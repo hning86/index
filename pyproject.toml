@@ -1,0 +1,10 @@
+[project]
+name = "my-repos"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "dotenv>=0.9.9",
+    "tqdm>=4.68.3",
+]
