@@ -10,12 +10,13 @@ Welcome! This is an automatically updated index of my public GitHub repositories
 ## 📁 Categorized Portfolio
 
 ### 🤖 Agentic AI & Large Language Models
-*18 repositories in this category.*
+*19 repositories in this category.*
 
 | Repository | Description | Language | Last Pushed | Stars |
 |--- |--- |--- |--- |--- |
+| [github_agents](https://github.com/hning86/github_agents) | 📖 An intelligent, multi-agent AI system built on the Google Agent Development Kit (ADK) and Gemini 2.5 Pro via Vertex... | `Python` | 2026-07-05 | — |
+| [gemini-map-grounding-places-eval](https://github.com/hning86/gemini-map-grounding-places-eval) | 📖 This project is a 2-stage Point-of-Interest (POI) discovery and verification evaluation framework. | `Python` | 2026-07-01 | — |
 | [bq_a2a_client](https://github.com/hning86/bq_a2a_client) | 📖 This project implements a hierarchical AI agent orchestrator using the Google Agent Development Kit (ADK). | `Python` | 2026-06-20 | — |
-| [gemini-map-grounding-places-eval](https://github.com/hning86/gemini-map-grounding-places-eval) | 📖 This project is a 2-stage Point-of-Interest (POI) discovery and verification evaluation framework. | `Python` | 2026-06-08 | — |
 | [OAuth-A2A-Agent](https://github.com/hning86/OAuth-A2A-Agent) | 📖 This directory contains a complete code blueprint demonstrating End-to-End Google OAuth 2.0 Token Propagation acros... | `Python` | 2026-06-07 | — |
 | [a2a-agent-registry](https://github.com/hning86/a2a-agent-registry) | 📖 A sample agent built with Google ADK and A2A Protocol | `Python` | 2026-06-06 | — |
 | [google-map-grounding-test](https://github.com/hning86/google-map-grounding-test) | 📖 A robust, lightweight benchmark and evaluation framework designed to assess and compare Gemini models (e.g., gemini... | `Python` | 2026-06-06 | — |
@@ -28,8 +29,7 @@ Welcome! This is an automatically updated index of my public GitHub repositories
 | [ag-ui-test](https://github.com/hning86/ag-ui-test) | 📖 This project demonstrates a minimal, highly optimized implementation of a Google ADK (Agent Development Kit) agent ... | `JavaScript` | 2026-04-01 | — |
 | [jll_demo](https://github.com/hning86/jll_demo) | 📖 This repository demonstrates a multi-cloud architecture showcasing a real estate property agent built using the Goo... | `Bicep` | 2026-04-01 | — |
 | [SecOpsAgent](https://github.com/hning86/SecOpsAgent) | 📖 SecOps Agent is a Security Operations Assistant built with the Google Agent Development Kit (ADK). | `Python` | 2026-03-31 | ⭐ 1 |
-| [real-madrid](https://github.com/hning86/real-madrid) | 📖 This project is a multi-agent debate application where a die-hard Real Madrid fan and a provocative FC Benfica fan ... | `Python` | 2026-01-31 | — |
-| ... and 3 more older repositories. | | | | |
+| ... and 4 more older repositories. | | | | |
 
 ### 📊 Machine Learning & Data Science
 *19 repositories in this category.*
@@ -54,12 +54,13 @@ Welcome! This is an automatically updated index of my public GitHub repositories
 | ... and 4 more older repositories. | | | | |
 
 ### ☁️ Cloud & Infrastructure Tools
-*9 repositories in this category.*
+*10 repositories in this category.*
 
 | Repository | Description | Language | Last Pushed | Stars |
 |--- |--- |--- |--- |--- |
+| [gcp-scratch-docs](https://github.com/hning86/gcp-scratch-docs) | 📖 Welcome to the documentation for the GCP Scratch project. | `N/A` | 2026-07-05 | — |
+| [gcp-scratch](https://github.com/hning86/gcp-scratch) | 📖 A collection of Python scripts demonstrating various Google Cloud services, including Generative AI and Natural Lan... | `Python` | 2026-07-05 | ⭐ 1 |
 | [gcc-creative-studio](https://github.com/hning86/gcc-creative-studio) | Google Cloud Creative Studio is a comprehensive, all-in-one Generative AI Platform designed as a deployable solution ... | `Python` | 2026-04-29 | — |
-| [gcp-scratch](https://github.com/hning86/gcp-scratch) | 📖 A collection of Python scripts demonstrating various Google Cloud services, including Generative AI and Natural Lan... | `Python` | 2026-04-04 | — |
 | [cloud-build-samples](https://github.com/hning86/cloud-build-samples) | Code snippets used in Cloud Build documentation | `Java` | 2025-05-17 | — |
 | [Machine-Learning-Operationalization](https://github.com/hning86/Machine-Learning-Operationalization) | Deploying machine learning models to Azure | `N/A` | 2017-05-01 | — |
 | [azure-docs](https://github.com/hning86/azure-docs) | *No description provided* | `PowerShell` | 2017-04-01 | — |
@@ -69,10 +70,11 @@ Welcome! This is an automatically updated index of my public GitHub repositories
 | [azure-sdk-tools-samples](https://github.com/hning86/azure-sdk-tools-samples) | Samples for Windows Azure PowerShell | `PowerShell` | 2013-07-11 | — |
 
 ### ⚙️ Utilities & General Projects
-*17 repositories in this category.*
+*18 repositories in this category.*
 
 | Repository | Description | Language | Last Pushed | Stars |
 |--- |--- |--- |--- |--- |
+| [index](https://github.com/hning86/index) | 📖 Welcome! This is an automatically updated index of my public GitHub repositories, categorized by domain and sorted ... | `Python` | 2026-06-20 | — |
 | [image_upscaler](https://github.com/hning86/image_upscaler) | 📖 A clean, secure single-page web application built with FastAPI and Vanilla CSS/JS to enhance and upscale images usi... | `JavaScript` | 2026-05-19 | — |
 | [video_shortener](https://github.com/hning86/video_shortener) | 📖 A Python script to shorten screen recordings by removing parts with no movement. | `Python` | 2026-04-04 | — |
 | [PreTaskPlanning](https://github.com/hning86/PreTaskPlanning) | 📖 An AI-driven system designed to standardize and elevate pre-task planning across global campuses. | `Python` | 2026-04-03 | — |
@@ -87,16 +89,19 @@ Welcome! This is an automatically updated index of my public GitHub repositories
 | [bikeshare](https://github.com/hning86/bikeshare) | *No description provided* | `Python` | 2017-06-22 | — |
 | [articles](https://github.com/hning86/articles) | *No description provided* | `N/A` | 2017-05-02 | ⭐ 2 |
 | [R-cadence](https://github.com/hning86/R-cadence) | Training Materials for R and Microsoft R Server | `Jupyter Notebook` | 2016-07-22 | — |
-| [RTVS](https://github.com/hning86/RTVS) | R Tools for Visual Studio. | `C#` | 2016-06-03 | — |
-| ... and 2 more older repositories. | | | | |
+| ... and 3 more older repositories. | | | | |
 
 ## 🕒 Complete Activity Feed
 A complete, chronological list of all public repositories sorted by the most recent push event.
 
 | Repository | Category | Language | Last Pushed | Stars | Forks |
 |--- |--- |--- |--- |--- |--- |
+| [github_agents](https://github.com/hning86/github_agents) | *Agentic AI* | `Python` | 2026-07-05 | — | — |
+| [gcp-scratch-docs](https://github.com/hning86/gcp-scratch-docs) | *Cloud & Infrastructure Tools* | `N/A` | 2026-07-05 | — | — |
+| [gcp-scratch](https://github.com/hning86/gcp-scratch) | *Cloud & Infrastructure Tools* | `Python` | 2026-07-05 | ⭐ 1 | — |
+| [gemini-map-grounding-places-eval](https://github.com/hning86/gemini-map-grounding-places-eval) | *Agentic AI* | `Python` | 2026-07-01 | — | — |
+| [index](https://github.com/hning86/index) | *Utilities & General Projects* | `Python` | 2026-06-20 | — | — |
 | [bq_a2a_client](https://github.com/hning86/bq_a2a_client) | *Agentic AI* | `Python` | 2026-06-20 | — | — |
-| [gemini-map-grounding-places-eval](https://github.com/hning86/gemini-map-grounding-places-eval) | *Agentic AI* | `Python` | 2026-06-08 | — | — |
 | [OAuth-A2A-Agent](https://github.com/hning86/OAuth-A2A-Agent) | *Agentic AI* | `Python` | 2026-06-07 | — | — |
 | [a2a-agent-registry](https://github.com/hning86/a2a-agent-registry) | *Agentic AI* | `Python` | 2026-06-06 | — | — |
 | [google-map-grounding-test](https://github.com/hning86/google-map-grounding-test) | *Agentic AI* | `Python` | 2026-06-06 | — | — |
@@ -109,14 +114,13 @@ A complete, chronological list of all public repositories sorted by the most rec
 | [gcc-creative-studio](https://github.com/hning86/gcc-creative-studio) | *Cloud & Infrastructure Tools* | `Python` | 2026-04-29 | — | — |
 | [ptp_demo](https://github.com/hning86/ptp_demo) | *Agentic AI* | `Python` | 2026-04-29 | — | — |
 | [video_shortener](https://github.com/hning86/video_shortener) | *Utilities & General Projects* | `Python` | 2026-04-04 | — | — |
-| [gcp-scratch](https://github.com/hning86/gcp-scratch) | *Cloud & Infrastructure Tools* | `Python` | 2026-04-04 | — | — |
 | [PreTaskPlanning](https://github.com/hning86/PreTaskPlanning) | *Utilities & General Projects* | `Python` | 2026-04-03 | — | — |
 | [ag-ui-test](https://github.com/hning86/ag-ui-test) | *Agentic AI* | `JavaScript` | 2026-04-01 | — | — |
 | [jll_demo](https://github.com/hning86/jll_demo) | *Agentic AI* | `Bicep` | 2026-04-01 | — | — |
 | [SecOpsAgent](https://github.com/hning86/SecOpsAgent) | *Agentic AI* | `Python` | 2026-03-31 | ⭐ 1 | — |
 | [real-madrid](https://github.com/hning86/real-madrid) | *Agentic AI* | `Python` | 2026-01-31 | — | — |
 | [adk-context-compression](https://github.com/hning86/adk-context-compression) | *Agentic AI* | `Python` | 2026-01-30 | — | — |
-| [adk-whoami](https://github.com/hning86/adk-whoami) | *Agentic AI* | `Python` | 2025-11-14 | — | — |
+| [adk-whoami](https://github.com/hning86/adk-whoami) | *Agentic AI* | `Python` | 2025-11-14 | ⭐ 1 | — |
 | [pmchallenge](https://github.com/hning86/pmchallenge) | *Utilities & General Projects* | `Jupyter Notebook` | 2025-06-14 | — | — |
 | [gcp_mlops](https://github.com/hning86/gcp_mlops) | *Machine Learning* | `N/A` | 2025-05-17 | — | — |
 | [cloud-build-samples](https://github.com/hning86/cloud-build-samples) | *Cloud & Infrastructure Tools* | `Java` | 2025-05-17 | — | — |
