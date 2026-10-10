@@ -32,18 +32,48 @@ def get_headers():
         headers['Authorization'] = f'Bearer {GITHUB_TOKEN}'
     return headers
 
+def get_authenticated_user():
+    if not GITHUB_TOKEN:
+        return None
+    url = "https://api.github.com/user"
+    req = urllib.request.Request(url, headers=get_headers())
+    try:
+        with urllib.request.urlopen(req) as response:
+            data = json.loads(response.read().decode())
+            return data.get("login")
+    except Exception:
+        return None
+
 def fetch_all_repos(username):
     repos = []
     page = 1
+    auth_user = get_authenticated_user()
+    is_self = bool(auth_user and auth_user.lower() == username.lower())
+
+    if is_self:
+        print(f"Authenticated as @{auth_user}. Fetching public and private repositories...", file=sys.stderr)
+    elif GITHUB_TOKEN:
+        print(f"Fetching public repositories for @{username}...", file=sys.stderr)
+    else:
+        print(f"Fetching public repositories for @{username} (unauthenticated)...", file=sys.stderr)
+
     while True:
-        url = f"https://api.github.com/users/{username}/repos?per_page=100&page={page}"
+        if is_self:
+            url = f"https://api.github.com/user/repos?per_page=100&page={page}&affiliation=owner&visibility=all"
+        else:
+            url = f"https://api.github.com/users/{username}/repos?per_page=100&page={page}"
+
         req = urllib.request.Request(url, headers=get_headers())
         try:
             with urllib.request.urlopen(req) as response:
                 data = json.loads(response.read().decode())
                 if not data:
                     break
-                repos.extend(data)
+                for repo in data:
+                    owner_login = repo.get("owner", {}).get("login", "")
+                    if is_self and owner_login.lower() != username.lower():
+                        continue
+                    repos.append(repo)
                 page += 1
         except urllib.error.HTTPError as e:
             print(f"HTTP Error fetching repos page {page}: {e.code} {e.reason}", file=sys.stderr)
@@ -192,7 +222,8 @@ def main():
         categorized[category].append(repo)
         
     print(f"# 🗂️ GitHub Repository Index | [@{username}](https://github.com/{username})")
-    print("\nWelcome! This is an automatically updated index of my public GitHub repositories, categorized by domain and sorted by recent activity. It serves as a portfolio of my work spanning Agentic AI, Machine Learning, Cloud Infrastructure, and Software Engineering.")
+    print("\nWelcome! This is an automatically updated index of my GitHub repositories, categorized by domain and sorted by recent activity. It serves as a portfolio of my work spanning Agentic AI, Machine Learning, Cloud Infrastructure, and Software Engineering.")
+    print("\n> 🔒 **Note**: Repositories marked with a lock are private.")
     
     print("\n## 🎯 Focus Areas")
     print("- **🤖 Agentic AI & GenAI**: Implementations of advanced AI agents using Google ADK, LangGraph, and Gemini models.")
@@ -209,47 +240,21 @@ def main():
         print(f"\n### {emoji} {category}")
         print(f"*{len(cat_repos)} repositories in this category.*\n")
         
-        print("| Repository | Description | Language | Last Pushed | Stars |")
-        print("|--- |--- |--- |--- |--- |")
-        for repo in cat_repos[:15]: # Show top 15 in each category
+        print("| Repository | Description | Last Pushed |")
+        print("|--- |--- |--- |")
+        for repo in cat_repos:
             name = repo.get("name")
             html_url = repo.get("html_url")
             desc = repo.get("description") or "*No description provided*"
             desc = desc.replace("\n", " ").replace("\r", "")
             if len(desc) > 120:
                 desc = desc[:117] + "..."
-            lang = repo.get("language") or "N/A"
             pushed_at = format_date(repo.get("pushed_at"))
-            stars = repo.get("stargazers_count", 0)
             
-            repo_link = f"[{name}]({html_url})"
-            stars_str = f"⭐ {stars}" if stars > 0 else "—"
-            print(f"| {repo_link} | {desc} | `{lang}` | {pushed_at} | {stars_str} |")
-        
-        if len(cat_repos) > 15:
-            print(f"| ... and {len(cat_repos) - 15} more older repositories. | | | | |")
-            
-    # Master Table (All Repositories)
-    print("\n## 🕒 Complete Activity Feed")
-    print("A complete, chronological list of all public repositories sorted by the most recent push event.\n")
-    print("| Repository | Category | Language | Last Pushed | Stars | Forks |")
-    print("|--- |--- |--- |--- |--- |--- |")
-    
-    for repo in repos:
-        name = repo.get("name")
-        html_url = repo.get("html_url")
-        lang = repo.get("language") or "N/A"
-        category = categorize_repo(repo)
-        # Shorten category name for table
-        cat_short = category.replace(" & Large Language Models", "").replace(" & Data Science", "")
-        pushed_at = format_date(repo.get("pushed_at"))
-        stars = repo.get("stargazers_count", 0)
-        forks = repo.get("forks_count", 0)
-        
-        repo_link = f"[{name}]({html_url})"
-        stars_str = f"⭐ {stars}" if stars > 0 else "—"
-        forks_str = f"🍴 {forks}" if forks > 0 else "—"
-        print(f"| {repo_link} | *{cat_short}* | `{lang}` | {pushed_at} | {stars_str} | {forks_str} |")
+            is_private = repo.get("private", False)
+            private_badge = " 🔒" if is_private else ""
+            repo_link = f"[{name}]({html_url}){private_badge}"
+            print(f"| {repo_link} | {desc} | {pushed_at} |")
         
     print("\n## 🔄 How to Update This Index")
     print("You can easily regenerate and update this `README.md` index file at any time using **uv**.\n")
@@ -257,10 +262,11 @@ def main():
     print("uv run fetch_repos.py > README.md")
     print("```")
     print("\n### 🔑 Environment Variables")
-    print("The script loads environment variables from a `.env` file in the root directory. To run this script securely and bypass GitHub rate limits, create a `.env` file containing your Personal Access Token:")
+    print("The script loads environment variables from a `.env` file in the root directory. To run this script securely, bypass GitHub rate limits, and include private repositories, create a `.env` file containing your Personal Access Token:")
     print("```env")
     print("GITHUB_TOKEN=your_personal_access_token")
     print("```")
+    print("\n> **Note**: For private repositories to be included, your Personal Access Token must have the `repo` scope (classic token) or `Contents: Read-only` and `Metadata: Read-only` permissions (fine-grained token).")
     print("\n---\n*This index was automatically generated. Feel free to explore the repositories directly on [GitHub](https://github.com/hning86).*")
 
 if __name__ == "__main__":
