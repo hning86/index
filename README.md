@@ -10,26 +10,26 @@ Welcome! This is an automatically updated index of my public GitHub repositories
 ## 📁 Categorized Portfolio
 
 ### 🤖 Agentic AI & Large Language Models
-*20 repositories in this category.*
+*22 repositories in this category.*
 
 | Repository | Description | Language | Last Pushed | Stars |
 |--- |--- |--- |--- |--- |
+| [tronox-demo](https://github.com/hning86/tronox-demo) | 📖 An autonomous, multi-agent graph workflow built with the Google Agent Development Kit (ADK 2.0). | `Python` | 2026-07-31 | — |
+| [gemini-map-grounding-places-eval](https://github.com/hning86/gemini-map-grounding-places-eval) | 📖 This project is a 2-stage Point-of-Interest (POI) discovery and verification evaluation framework. | `Python` | 2026-07-27 | — |
+| [conversational-travel-agent](https://github.com/hning86/conversational-travel-agent) | 📖 A fully interactive multi-agent travel planning simulation utilizing the Google Agent Development Kit (ADK 2.0) and... | `Python` | 2026-07-16 | — |
+| [a2a-agent-registry](https://github.com/hning86/a2a-agent-registry) | 📖 A sample agent built with Google ADK and A2A Protocol | `Python` | 2026-07-15 | — |
+| [alphaevolve-on-googlecloud](https://github.com/hning86/alphaevolve-on-googlecloud) | 📖 Discover and optimize algorithms with AlphaEvolve — a Gemini-powered evolutionary coding agent, available through G... | `N/A` | 2026-07-10 | — |
 | [adk_agent_evaluation](https://github.com/hning86/adk_agent_evaluation) | 📖 This repository demonstrates how to perform programmatic multi-turn user simulation to evaluate AI agents using the... | `Python` | 2026-07-10 | — |
 | [github_agents](https://github.com/hning86/github_agents) | 📖 An intelligent, multi-agent AI system built on the Google Agent Development Kit (ADK) and Gemini 3.5 Flash via Vert... | `Python` | 2026-07-06 | — |
-| [gemini-map-grounding-places-eval](https://github.com/hning86/gemini-map-grounding-places-eval) | 📖 This project is a 2-stage Point-of-Interest (POI) discovery and verification evaluation framework. | `Python` | 2026-07-01 | — |
 | [bq_a2a_client](https://github.com/hning86/bq_a2a_client) | 📖 This project implements a hierarchical AI agent orchestrator using the Google Agent Development Kit (ADK). | `Python` | 2026-06-20 | — |
 | [OAuth-A2A-Agent](https://github.com/hning86/OAuth-A2A-Agent) | 📖 This directory contains a complete code blueprint demonstrating End-to-End Google OAuth 2.0 Token Propagation acros... | `Python` | 2026-06-07 | — |
-| [a2a-agent-registry](https://github.com/hning86/a2a-agent-registry) | 📖 A sample agent built with Google ADK and A2A Protocol | `Python` | 2026-06-06 | — |
 | [google-map-grounding-test](https://github.com/hning86/google-map-grounding-test) | 📖 A robust, lightweight benchmark and evaluation framework designed to assess and compare Gemini models (e.g., gemini... | `Python` | 2026-06-06 | — |
 | [langgraph-in-agent-engine](https://github.com/hning86/langgraph-in-agent-engine) | 📖 Welcome to Nova Core, an ultra-premium, interactive command-line AI Agent built using modern LangChain and LangGrap... | `Python` | 2026-06-03 | — |
-| [conversational-travel-agent](https://github.com/hning86/conversational-travel-agent) | 📖 A fully interactive multi-agent travel planning simulation utilizing the Google Agent Development Kit (ADK 2.0) and... | `Python` | 2026-06-02 | — |
 | [underwriter_adk_demo](https://github.com/hning86/underwriter_adk_demo) | 📖 This AI-Assisted Underwriting demo integrates Gemini and the Google Agent Development Kit (ADK) to automate the syn... | `Python` | 2026-06-02 | ⭐ 1 |
 | [PowerPointAgent](https://github.com/hning86/PowerPointAgent) | 📖 An advanced AI Multi-Agent System designed to automate the generation of strategic, brand-compliant PowerPoint pres... | `Python` | 2026-05-08 | — |
 | [rfp_agent](https://github.com/hning86/rfp_agent) | 📖 A state-of-the-art, multi-agent Reasoning Engine built with Google's Agent Development Kit (ADK). | `Python` | 2026-05-07 | — |
 | [ptp_demo](https://github.com/hning86/ptp_demo) | 📖 An interactive, multi-scene visual showcase mimicking continuous Pre-Task Planning (PTP) compliance across field op... | `Python` | 2026-04-29 | — |
-| [ag-ui-test](https://github.com/hning86/ag-ui-test) | 📖 This project demonstrates a minimal, highly optimized implementation of a Google ADK (Agent Development Kit) agent ... | `JavaScript` | 2026-04-01 | — |
-| [jll_demo](https://github.com/hning86/jll_demo) | 📖 This repository demonstrates a multi-cloud architecture showcasing a real estate property agent built using the Goo... | `Bicep` | 2026-04-01 | — |
-| ... and 5 more older repositories. | | | | |
+| ... and 7 more older repositories. | | | | |
 
 ### 📊 Machine Learning & Data Science
 *19 repositories in this category.*
@@ -74,7 +74,7 @@ Welcome! This is an automatically updated index of my public GitHub repositories
 
 | Repository | Description | Language | Last Pushed | Stars |
 |--- |--- |--- |--- |--- |
-| [index](https://github.com/hning86/index) | 📖 Welcome! This is an automatically updated index of my public GitHub repositories, categorized by domain and sorted ... | `Python` | 2026-07-05 | — |
+| [index](https://github.com/hning86/index) | 📖 Welcome! This is an automatically updated index of my public GitHub repositories, categorized by domain and sorted ... | `Python` | 2026-07-10 | — |
 | [image_upscaler](https://github.com/hning86/image_upscaler) | 📖 A clean, secure single-page web application built with FastAPI and Vanilla CSS/JS to enhance and upscale images usi... | `JavaScript` | 2026-05-19 | — |
 | [video_shortener](https://github.com/hning86/video_shortener) | 📖 A Python script to shorten screen recordings by removing parts with no movement. | `Python` | 2026-04-04 | — |
 | [PreTaskPlanning](https://github.com/hning86/PreTaskPlanning) | 📖 An AI-driven system designed to standardize and elevate pre-task planning across global campuses. | `Python` | 2026-04-03 | — |
@@ -96,18 +96,20 @@ A complete, chronological list of all public repositories sorted by the most rec
 
 | Repository | Category | Language | Last Pushed | Stars | Forks |
 |--- |--- |--- |--- |--- |--- |
+| [tronox-demo](https://github.com/hning86/tronox-demo) | *Agentic AI* | `Python` | 2026-07-31 | — | — |
+| [gemini-map-grounding-places-eval](https://github.com/hning86/gemini-map-grounding-places-eval) | *Agentic AI* | `Python` | 2026-07-27 | — | — |
+| [conversational-travel-agent](https://github.com/hning86/conversational-travel-agent) | *Agentic AI* | `Python` | 2026-07-16 | — | — |
+| [a2a-agent-registry](https://github.com/hning86/a2a-agent-registry) | *Agentic AI* | `Python` | 2026-07-15 | — | — |
+| [alphaevolve-on-googlecloud](https://github.com/hning86/alphaevolve-on-googlecloud) | *Agentic AI* | `N/A` | 2026-07-10 | — | — |
+| [index](https://github.com/hning86/index) | *Utilities & General Projects* | `Python` | 2026-07-10 | — | — |
 | [adk_agent_evaluation](https://github.com/hning86/adk_agent_evaluation) | *Agentic AI* | `Python` | 2026-07-10 | — | — |
 | [gcp-scratch](https://github.com/hning86/gcp-scratch) | *Cloud & Infrastructure Tools* | `Python` | 2026-07-07 | ⭐ 1 | — |
 | [github_agents](https://github.com/hning86/github_agents) | *Agentic AI* | `Python` | 2026-07-06 | — | — |
 | [gcp-scratch-docs](https://github.com/hning86/gcp-scratch-docs) | *Cloud & Infrastructure Tools* | `N/A` | 2026-07-05 | — | — |
-| [index](https://github.com/hning86/index) | *Utilities & General Projects* | `Python` | 2026-07-05 | — | — |
-| [gemini-map-grounding-places-eval](https://github.com/hning86/gemini-map-grounding-places-eval) | *Agentic AI* | `Python` | 2026-07-01 | — | — |
 | [bq_a2a_client](https://github.com/hning86/bq_a2a_client) | *Agentic AI* | `Python` | 2026-06-20 | — | — |
 | [OAuth-A2A-Agent](https://github.com/hning86/OAuth-A2A-Agent) | *Agentic AI* | `Python` | 2026-06-07 | — | — |
-| [a2a-agent-registry](https://github.com/hning86/a2a-agent-registry) | *Agentic AI* | `Python` | 2026-06-06 | — | — |
 | [google-map-grounding-test](https://github.com/hning86/google-map-grounding-test) | *Agentic AI* | `Python` | 2026-06-06 | — | — |
 | [langgraph-in-agent-engine](https://github.com/hning86/langgraph-in-agent-engine) | *Agentic AI* | `Python` | 2026-06-03 | — | — |
-| [conversational-travel-agent](https://github.com/hning86/conversational-travel-agent) | *Agentic AI* | `Python` | 2026-06-02 | — | — |
 | [underwriter_adk_demo](https://github.com/hning86/underwriter_adk_demo) | *Agentic AI* | `Python` | 2026-06-02 | ⭐ 1 | — |
 | [image_upscaler](https://github.com/hning86/image_upscaler) | *Utilities & General Projects* | `JavaScript` | 2026-05-19 | — | — |
 | [PowerPointAgent](https://github.com/hning86/PowerPointAgent) | *Agentic AI* | `Python` | 2026-05-08 | — | — |
