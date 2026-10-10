@@ -12,10 +12,11 @@ Welcome! This is an automatically updated index of my GitHub repositories, categ
 ## 📁 Categorized Portfolio
 
 ### 🤖 Agentic AI & Large Language Models
-*22 repositories in this category.*
+*23 repositories in this category.*
 
 | Repository | Description | Last Pushed |
 |--- |--- |--- |
+| [adk_swarm](https://github.com/hning86/adk_swarm) | 📖 This project implements the Swarm Pattern for multi-agent systems using Google's Agent Development Kit (ADK) and Ge... | 2026-10-10 |
 | [tronox-demo](https://github.com/hning86/tronox-demo) | 📖 An autonomous, multi-agent graph workflow built with the Google Agent Development Kit (ADK 2.0). | 2026-07-31 |
 | [gemini-map-grounding-places-eval](https://github.com/hning86/gemini-map-grounding-places-eval) | 📖 This project is a 2-stage Point-of-Interest (POI) discovery and verification evaluation framework. | 2026-07-27 |
 | [conversational-travel-agent](https://github.com/hning86/conversational-travel-agent) | 📖 A fully interactive multi-agent travel planning simulation utilizing the Google Agent Development Kit (ADK 2.0) and... | 2026-07-16 |
@@ -86,7 +87,7 @@ Welcome! This is an automatically updated index of my GitHub repositories, categ
 
 | Repository | Description | Last Pushed |
 |--- |--- |--- |
-| [index](https://github.com/hning86/index) | 📖 Welcome! This is an automatically updated index of my public GitHub repositories, categorized by domain and sorted ... | 2026-10-10 |
+| [index](https://github.com/hning86/index) | 📖 Welcome! This is an automatically updated index of my GitHub repositories, categorized by domain and sorted by rece... | 2026-10-10 |
 | [scale_challenge](https://github.com/hning86/scale_challenge) 🔒 | 📖 A mobile-friendly, colorful, and music-themed web application designed for Angela to log daily violin scale practic... | 2026-10-10 |
 | [hyatt-poc](https://github.com/hning86/hyatt-poc) 🔒 | 📖 Proof of Concept repository for Hyatt Finance AI assistants, MCP services, and automated balance sheet reconciliation. | 2026-10-09 |
 | [L400](https://github.com/hning86/L400) 🔒 | *No description provided* | 2026-09-26 |
